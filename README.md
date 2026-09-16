@@ -1,4 +1,4 @@
-# Sistema de Alquiler de Vehículos
+# Sistema de Alquiler de Vehículos (Jefferson Alejandro Barrios Arias -- Marian Sofia Llamas Toloza)
 
 **Objetivo:** Desarrollar una aplicación de consola en Java que aplique los 4 pilares de la Programación Orientada a Objetos (Encapsulamiento, Herencia, Polimorfismo y Abstracción) basándose en el diagrama de clases adjunto en la carpeta `diagrams`.
 
