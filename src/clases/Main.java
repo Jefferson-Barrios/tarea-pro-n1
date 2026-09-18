@@ -2,7 +2,7 @@ package clases;
 
 public class Main {
     public static void main(String[] args) {
-        // Creamos los vehículos
+
         Auto auto1 = new Auto("Toyota", "Corolla", 50.0);
         Moto moto1 = new Moto("Yamaha", "MT-03", 30.0);
 
@@ -10,12 +10,10 @@ public class Main {
 
         System.out.println("REPORTE DE ALQUILER DE VEHICULOS (" + diasAlquiler + " DIAS)\n");
 
-        // Solo llamamos al método y él hace todo el trabajo por nosotros
         imprimirReporte(auto1, diasAlquiler);
         imprimirReporte(moto1, diasAlquiler);
     }
 
-    // Este es el método que automatiza el cálculo y la impresión
     public static void imprimirReporte(Vehiculo v, int dias) {
         double costoTotal = v.costoAlquiler(dias);
         
